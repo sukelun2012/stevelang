@@ -1,2 +1,2 @@
 # stevelang
-A programming language of steve!
+Steve programming language!
