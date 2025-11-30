@@ -1,0 +1,502 @@
+﻿  steve.cpp
+D:\steve10\src\steve\steve.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\steve\vm.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“steve.cpp”)
+  
+D:\steve10\src\steve\language.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“steve.cpp”)
+  
+  vm.cpp
+D:\steve10\src\steve\vm.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\steve\vm.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm.cpp”)
+  
+D:\steve10\src\steve\language.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm.cpp”)
+  
+D:\steve10\src\steve\vm_gc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm.cpp”)
+  
+D:\steve10\src\steve\vm_exception.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm.cpp”)
+  
+D:\steve10\src\steve\vm_jit.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm.cpp”)
+  
+D:\steve10\src\steve\mem.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm.cpp”)
+  
+D:\steve10\src\steve\gc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm.cpp”)
+  
+D:\steve10\src\steve\vm.cpp(687,49): warning C4244: “=”: 从“_First”转换到“double”，可能丢失数据
+D:\steve10\src\steve\vm.cpp(687,49): warning C4244:         with
+D:\steve10\src\steve\vm.cpp(687,49): warning C4244:         [
+D:\steve10\src\steve\vm.cpp(687,49): warning C4244:             _First=int64_t
+D:\steve10\src\steve\vm.cpp(687,49): warning C4244:         ]
+D:\steve10\src\steve\vm.cpp(709,53): warning C4244: “=”: 从“_First”转换到“double”，可能丢失数据
+D:\steve10\src\steve\vm.cpp(709,53): warning C4244:         with
+D:\steve10\src\steve\vm.cpp(709,53): warning C4244:         [
+D:\steve10\src\steve\vm.cpp(709,53): warning C4244:             _First=int64_t
+D:\steve10\src\steve\vm.cpp(709,53): warning C4244:         ]
+D:\steve10\src\steve\vm.cpp(1247,51): error C2589: “常数”:“::”右边的非法标记
+D:\steve10\src\steve\vm.cpp(1247,34): error C2062: 意外的类型“<错误>” 
+D:\steve10\src\steve\vm.cpp(1993,39): error C2589: “常数”:“::”右边的非法标记
+D:\steve10\src\steve\vm.cpp(1993,22): error C2062: 意外的类型“<错误>” 
+D:\steve10\src\steve\vm.cpp(1993,49): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\steve10\src\steve\vm.cpp(2279,44): error C2668: “steve::VM::PointerValue::PointerValue”: 对重载函数的调用不明确
+      D:\steve10\src\steve\vm.h(71,13):
+      可能是“steve::VM::PointerValue::PointerValue(void *,const std::string &,bool,bool)”
+      D:\steve10\src\steve\vm.h(69,13):
+      或    “steve::VM::PointerValue::PointerValue(steve::VM::ManagedObject *,const std::string &,bool,bool)”
+      D:\steve10\src\steve\vm.cpp(2279,44):
+      尝试匹配参数列表“(nullptr, const char [7], bool)”时
+  
+D:\steve10\src\steve\vm.cpp(2287,45): error C2668: “steve::VM::PointerValue::PointerValue”: 对重载函数的调用不明确
+      D:\steve10\src\steve\vm.h(71,13):
+      可能是“steve::VM::PointerValue::PointerValue(void *,const std::string &,bool,bool)”
+      D:\steve10\src\steve\vm.h(69,13):
+      或    “steve::VM::PointerValue::PointerValue(steve::VM::ManagedObject *,const std::string &,bool,bool)”
+      D:\steve10\src\steve\vm.cpp(2287,45):
+      尝试匹配参数列表“(nullptr, const char [7], bool)”时
+  
+D:\steve10\src\steve\vm.cpp(2526,66): error C2065: “op”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2526,70): error C2065: “line”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2531,13): error C2562: “steve::VM::VirtualMachine::jumpToElseOrEnd”:“void”函数返回值
+      D:\steve10\src\steve\vm.cpp(2502,30):
+      参见“steve::VM::VirtualMachine::jumpToElseOrEnd”的声明
+  
+D:\steve10\src\steve\vm.cpp(2544,17): error C2059: 语法错误:“if”
+D:\steve10\src\steve\vm.cpp(2544,33): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\steve10\src\steve\vm.cpp(2544,33): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\steve10\src\steve\vm.cpp(2554,24): error C2143: 语法错误: 缺少“;”(在“++”的前面)
+D:\steve10\src\steve\vm.cpp(2554,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(2560,13): error C3927: "->": 非函数声明符后不允许尾随返回类型
+D:\steve10\src\steve\vm.cpp(2560,18): error C3484: 语法错误: 返回类型前应为“->”
+D:\steve10\src\steve\vm.cpp(2560,19): error C3613: “->”后缺少返回类型(假定为“int”)
+D:\steve10\src\steve\vm.cpp(2560,13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(2560,19): error C2146: 语法错误: 缺少“;”(在标识符“pc”的前面)
+D:\steve10\src\steve\vm.cpp(2566,14): error C2653: “VirtualMachine”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(2570,30): error C2065: “state”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2572,30): error C2065: “state”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2574,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(2574,34): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+D:\steve10\src\steve\vm.cpp(2574,36): error C2065: “nextInstr”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2574,48): error C2065: “state”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2576,21): error C2065: “nextInstr”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2576,39): error C2653: “InstructionType”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(2576,56): error C2065: “IF”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2576,62): error C2065: “nextInstr”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2576,80): error C2653: “InstructionType”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(2576,97): error C2065: “WHILE”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2582,26): error C2065: “nextInstr”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2582,44): error C2653: “InstructionType”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(2582,61): error C2065: “END”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2590,21): error C2065: “state”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2602,13): error C2065: “state”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2602,24): error C2065: “state”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2608,15): error C2653: “VirtualMachine”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(2608,9): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(2608,31): error C2146: 语法错误: 缺少“;”(在标识符“performBinaryOperation”的前面)
+D:\steve10\src\steve\vm.cpp(2610,46): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\steve10\src\steve\vm.cpp(2610,46): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\steve10\src\steve\vm.cpp(2940,15): error C2653: “VirtualMachine”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(2940,9): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(2940,9): error C2086: “int Value”: 重定义
+      D:\steve10\src\steve\vm.cpp(2608,9):
+      参见“Value”的声明
+  
+D:\steve10\src\steve\vm.cpp(2940,31): error C2146: 语法错误: 缺少“;”(在标识符“performUnaryOperation”的前面)
+D:\steve10\src\steve\vm.cpp(2940,108): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\steve10\src\steve\vm.cpp(2940,108): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\steve10\src\steve\vm.cpp(2986,16): error C2653: “VirtualMachine”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(2986,47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(2986,58): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+D:\steve10\src\steve\vm.cpp(2988,48): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2990,41): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2994,50): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(2996,58): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3000,54): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3002,62): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3006,51): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3008,59): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3012,45): error C2065: “ListValue”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3012,56): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3014,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(3014,32): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+D:\steve10\src\steve\vm.cpp(3014,34): error C2065: “list”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3014,61): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3016,44): error C2065: “list”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3020,45): error C2065: “DictValue”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3020,56): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3022,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(3022,32): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+D:\steve10\src\steve\vm.cpp(3022,34): error C2065: “dict”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3022,61): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3024,44): error C2065: “dict”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3034,17): error C2653: “VirtualMachine”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(3034,47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(3034,58): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+D:\steve10\src\steve\vm.cpp(3036,49): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3038,42): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3042,50): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3044,59): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3048,51): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3050,60): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3054,45): error C2065: “PointerValue”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3054,59): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3056,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(3056,35): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+D:\steve10\src\steve\vm.cpp(3056,37): error C2065: “ptr”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3056,66): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3057,50): error C2065: “ptr”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3060,45): error C2065: “ListValue”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3060,56): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3061,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(3061,32): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+D:\steve10\src\steve\vm.cpp(3061,34): error C2065: “list”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3061,61): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3062,45): error C2065: “list”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3065,45): error C2065: “DictValue”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3065,56): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3066,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\steve10\src\steve\vm.cpp(3066,32): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+D:\steve10\src\steve\vm.cpp(3066,34): error C2065: “dict”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3066,61): error C2065: “value”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3067,45): error C2065: “dict”: 未声明的标识符
+D:\steve10\src\steve\vm.cpp(3074,15): error C2653: “VirtualMachine”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(3078,14): error C2653: “VirtualMachine”: 不是类或命名空间名称
+D:\steve10\src\steve\vm.cpp(3078,14): error C1003: 错误计数超过 100；正在停止编译
+  vm_gc.cpp
+D:\steve10\src\steve\vm_gc.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\steve\vm_gc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm_gc.cpp”)
+  
+D:\steve10\src\steve\vm.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm_gc.cpp”)
+  
+  vm_jit.cpp
+D:\steve10\src\steve\vm_jit.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\steve\vm_jit.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(147,13): error C2143: 语法错误: 缺少“}”(在“常数”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(147,13): error C2059: 语法错误:“常数”
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(159,9): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(163,29): error C3646: “type”: 未知重写说明符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(163,13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(167,19): error C3646: “literal”: 未知重写说明符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(167,13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(171,34): error C2653: “InstructionType”: 不是类或命名空间名称
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(171,51): error C2065: “NOP”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(171,29): error C2614: “steve::Instruction”: 非法的成员初始化:“type”不是基或成员
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(171,57): error C2614: “steve::Instruction”: 非法的成员初始化:“literal”不是基或成员
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(181,57): error C2065: “Value”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(181,30): error C2923: "std::unordered_map": "Value" 不是参数 "_Ty" 的有效 模板 类型参数
+  (编译源文件“vm_jit.cpp”)
+      D:\steve10\src\steve\vm.h(181,57):
+      参见“Value”的声明
+  
+D:\steve10\src\steve\vm.h(181,30): error C2976: “std::unordered_map'”: 模板 参数太少
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\unordered_map(61,7):
+      参见“std::unordered_map”的声明
+  
+D:\steve10\src\steve\vm.h(181,30): error C3203: "unordered_map": 未指定的 类 模板 不能用作 模板 参数 "_Ty" 的 模板 参数，应为真实类型
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(183,25): error C2065: “Value”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(183,18): error C2923: "std::vector": "Value" 不是参数 "_Ty" 的有效 模板 类型参数
+  (编译源文件“vm_jit.cpp”)
+      D:\steve10\src\steve\vm.h(183,25):
+      参见“Value”的声明
+  
+D:\steve10\src\steve\vm.h(183,18): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\vector(442,7):
+      参见“std::vector”的声明
+  
+D:\steve10\src\steve\vm.h(183,32): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\vector(442,7):
+      参见“std::vector”的声明
+  
+D:\steve10\src\steve\vm.h(184,45): error C2065: “Value”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(184,18): error C2923: "std::unordered_map": "Value" 不是参数 "_Ty" 的有效 模板 类型参数
+  (编译源文件“vm_jit.cpp”)
+      D:\steve10\src\steve\vm.h(184,45):
+      参见“Value”的声明
+  
+D:\steve10\src\steve\vm.h(184,18): error C2976: “std::unordered_map'”: 模板 参数太少
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\unordered_map(61,7):
+      参见“std::unordered_map”的声明
+  
+D:\steve10\src\steve\vm.h(184,52): error C2955: “std::unordered_map”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\unordered_map(61,7):
+      参见“std::unordered_map”的声明
+  
+D:\steve10\src\steve\vm.h(187,84): error C2512: “std::vector”: 没有合适的默认构造函数可用
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\vector(442,7):
+      参见“std::vector”的声明
+  
+D:\steve10\src\steve\vm.h(187,84): error C2512: “std::unordered_map”: 没有合适的默认构造函数可用
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\unordered_map(61,7):
+      参见“std::unordered_map”的声明
+  
+D:\steve10\src\steve\vm.h(193,26): error C3646: “pendingCommand”: 未知重写说明符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(193,13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(194,25): error C2065: “Breakpoint”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(194,18): error C2923: "std::vector": "Breakpoint" 不是参数 "_Ty" 的有效 模板 类型参数
+  (编译源文件“vm_jit.cpp”)
+      D:\steve10\src\steve\vm.h(194,25):
+      参见“Breakpoint”的声明
+  
+D:\steve10\src\steve\vm.h(194,18): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\vector(442,7):
+      参见“std::vector”的声明
+  
+D:\steve10\src\steve\vm.h(194,37): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\vector(442,7):
+      参见“std::vector”的声明
+  
+D:\steve10\src\steve\vm.h(200,61): error C2653: “DebugCommand”: 不是类或命名空间名称
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(200,75): error C2065: “NONE”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(200,140): error C2512: “std::vector”: 没有合适的默认构造函数可用
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\vector(442,7):
+      参见“std::vector”的声明
+  
+D:\steve10\src\steve\vm.h(200,46): error C2614: “steve::DebugState”: 非法的成员初始化:“pendingCommand”不是基或成员
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(236,77): error C2065: “Value”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(236,70): error C2923: "std::vector": "Value" 不是参数 "_Ty" 的有效 模板 类型参数
+  (编译源文件“vm_jit.cpp”)
+      D:\steve10\src\steve\vm.h(236,77):
+      参见“Value”的声明
+  
+D:\steve10\src\steve\vm.h(236,70): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\vector(442,7):
+      参见“std::vector”的声明
+  
+D:\steve10\src\steve\vm.h(236,70): error C2275: “std::vector”: 应为表达式而不是类型
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(236,59): error C3861: “Value”: 找不到标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(236,50): error C2923: "std::function": "Value" 不是参数 "_Fty" 的有效 模板 类型参数
+  (编译源文件“vm_jit.cpp”)
+      D:\steve10\src\steve\vm.h(236,59):
+      参见“Value”的声明
+  
+D:\steve10\src\steve\vm.h(236,50): error C3203: "function": 未指定的 类 模板 不能用作 模板 参数 "_Ty" 的 模板 参数，应为真实类型
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(237,29): error C2065: “VMGarbageCollector”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(237,18): error C2923: "std::unique_ptr": "VMGarbageCollector" 不是参数 "_Ty" 的有效 模板 类型参数
+  (编译源文件“vm_jit.cpp”)
+      D:\steve10\src\steve\vm.h(237,29):
+      参见“VMGarbageCollector”的声明
+  
+D:\steve10\src\steve\vm.h(237,18): error C2976: “std::unique_ptr'”: 模板 参数太少
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      参见“std::unique_ptr”的声明
+  
+D:\steve10\src\steve\vm.h(237,49): error C2955: “std::unique_ptr”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      参见“std::unique_ptr”的声明
+  
+D:\steve10\src\steve\vm.h(238,29): error C2065: “JITCompiler”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(238,18): error C2923: "std::unique_ptr": "JITCompiler" 不是参数 "_Ty" 的有效 模板 类型参数
+  (编译源文件“vm_jit.cpp”)
+      D:\steve10\src\steve\vm.h(238,29):
+      参见“JITCompiler”的声明
+  
+D:\steve10\src\steve\vm.h(238,18): error C2976: “std::unique_ptr'”: 模板 参数太少
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      参见“std::unique_ptr”的声明
+  
+D:\steve10\src\steve\vm.h(238,42): error C2955: “std::unique_ptr”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“vm_jit.cpp”)
+      D:\Visual Studio\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      参见“std::unique_ptr”的声明
+  
+D:\steve10\src\steve\vm.h(246,41): error C2065: “ManagedObject”: 未声明的标识符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(246,55): error C2059: 语法错误:“>”
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(316,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(316,59): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(328,31): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(328,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(331,19): error C3646: “performBinaryOperation”: 未知重写说明符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(331,41): error C2059: 语法错误:“(”
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(331,113): error C2238: 意外的标记位于“;”之前
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(332,19): error C3646: “performUnaryOperation”: 未知重写说明符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(332,40): error C2059: 语法错误:“(”
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(332,95): error C2238: 意外的标记位于“;”之前
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(333,35): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(333,46): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(336,19): error C3646: “getVariable”: 未知重写说明符
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(336,30): error C2059: 语法错误:“(”
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(336,55): error C2238: 意外的标记位于“;”之前
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(337,55): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(337,66): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(342,35): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(342,46): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(346,1): error C2059: 语法错误:“}”
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm.h(346,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm_exception.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm_exception.h(13,17): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm_exception.h(13,17): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+  (编译源文件“vm_jit.cpp”)
+  
+D:\steve10\src\steve\vm_jit.cpp(89,25): error C2027: 使用了未定义类型“steve::VM::Instruction”
+      D:\steve10\src\steve\vm_jit.h(26,16):
+      参见“steve::VM::Instruction”的声明
+  
+D:\steve10\src\steve\vm_jit.cpp(90,39): error C2440: “类型强制转换”: 无法从“steve::VM::InstructionType”转换为“int”
+      D:\steve10\src\steve\vm_jit.cpp(90,39):
+      此转换需要显式强制转换(static_cast、C 样式强制转换或带圆括号函数样式强制转换)
+  
+D:\steve10\src\steve\vm_jit.cpp(90,17): error C2046: case 语句不在 switch 语句中
+D:\steve10\src\steve\vm_jit.cpp(99,39): error C2440: “类型强制转换”: 无法从“steve::VM::InstructionType”转换为“int”
+      D:\steve10\src\steve\vm_jit.cpp(99,39):
+      此转换需要显式强制转换(static_cast、C 样式强制转换或带圆括号函数样式强制转换)
+  
+D:\steve10\src\steve\vm_jit.cpp(99,17): error C2046: case 语句不在 switch 语句中
+D:\steve10\src\steve\vm_jit.cpp(104,26): error C2027: 使用了未定义类型“steve::VM::Instruction”
+      D:\steve10\src\steve\vm_jit.h(26,16):
+      参见“steve::VM::Instruction”的声明
+  
+D:\steve10\src\steve\vm_jit.cpp(105,47): error C2027: 使用了未定义类型“steve::VM::Instruction”
+      D:\steve10\src\steve\vm_jit.h(26,16):
+      参见“steve::VM::Instruction”的声明
+  
+D:\steve10\src\steve\vm_jit.cpp(155,39): error C2440: “类型强制转换”: 无法从“steve::VM::InstructionType”转换为“int”
+      D:\steve10\src\steve\vm_jit.cpp(155,39):
+      此转换需要显式强制转换(static_cast、C 样式强制转换或带圆括号函数样式强制转换)
+  
+D:\steve10\src\steve\vm_jit.cpp(155,39): error C1003: 错误计数超过 100；正在停止编译
+  language.cpp
+D:\steve10\src\steve\language.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\steve\language.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“language.cpp”)
+  
+  gc.cpp
+D:\steve10\src\stevec\gc.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\gc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../stevec/gc.cpp”)
+  
+  mem.cpp
+D:\steve10\src\stevec\mem.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\mem.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../stevec/mem.cpp”)
+  
+  正在生成代码...

@@ -1,0 +1,95 @@
+﻿  backend.cpp
+D:\steve10\src\stevec\backend.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\backend.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“backend.cpp”)
+  
+D:\steve10\src\stevec\ast.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“backend.cpp”)
+  
+D:\steve10\src\stevec\backend.cpp(90,64): error C3861: “genPointerMemberAccess”: 找不到标识符
+D:\steve10\src\stevec\backend.cpp(393,21): error C2039: "genPointerMemberAccess": 不是 "steve::Backend::CodeGenerator" 的成员
+      D:\steve10\src\stevec\backend.h(24,7):
+      参见“steve::Backend::CodeGenerator”的声明
+  
+D:\steve10\src\stevec\backend.cpp(394,5): error C3861: “emit”: 找不到标识符
+D:\steve10\src\stevec\backend.cpp(397,9): error C3861: “genExpression”: 找不到标识符
+D:\steve10\src\stevec\backend.cpp(401,9): error C3861: “emit”: 找不到标识符
+D:\steve10\src\stevec\backend.cpp(402,9): error C3861: “emit”: 找不到标识符
+D:\steve10\src\stevec\backend.cpp(404,9): error C3861: “emit”: 找不到标识符
+  codegen.cpp
+D:\steve10\src\stevec\codegen.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\codegen.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“codegen.cpp”)
+  
+D:\steve10\src\stevec\ast.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“codegen.cpp”)
+  
+  gc.cpp
+D:\steve10\src\stevec\gc.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\gc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“gc.cpp”)
+  
+  language.cpp
+D:\steve10\src\stevec\language.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\language.cpp(76,109): error C2001: 常量中有换行符
+D:\steve10\src\stevec\language.cpp(76,109): error C2064: 项不会计算为接受 1 个参数的函数
+D:\steve10\src\stevec\language.cpp(85,10): error C2059: 语法错误:“;”
+  lexer.cpp
+D:\steve10\src\stevec\lexer.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\lexer.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“lexer.cpp”)
+  
+  mem.cpp
+D:\steve10\src\stevec\mem.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\mem.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“mem.cpp”)
+  
+  parser.cpp
+D:\steve10\src\stevec\parser.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\parser.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“parser.cpp”)
+  
+D:\steve10\src\stevec\lexer.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“parser.cpp”)
+  
+D:\steve10\src\stevec\ast.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“parser.cpp”)
+  
+  sema.cpp
+D:\steve10\src\stevec\sema.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\sema.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“sema.cpp”)
+  
+D:\steve10\src\stevec\ast.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“sema.cpp”)
+  
+D:\steve10\src\stevec\lexer.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“sema.cpp”)
+  
+D:\steve10\src\stevec\parser.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“sema.cpp”)
+  
+  stevec.cpp
+D:\steve10\src\stevec\stevec.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\steve10\src\stevec\lexer.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“stevec.cpp”)
+  
+D:\steve10\src\stevec\parser.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“stevec.cpp”)
+  
+D:\steve10\src\stevec\ast.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“stevec.cpp”)
+  
+D:\steve10\src\stevec\sema.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“stevec.cpp”)
+  
+D:\steve10\src\stevec\codegen.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“stevec.cpp”)
+  
+D:\steve10\src\stevec\backend.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“stevec.cpp”)
+  
+D:\steve10\src\stevec\gc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“stevec.cpp”)
+  
+  正在生成代码...
